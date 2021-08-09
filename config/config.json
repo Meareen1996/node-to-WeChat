@@ -1,0 +1,12 @@
+{
+    "wechat": {
+        "appID": "wxff3d9840898aed51",
+        "appsecret": "fcb622b028d4846d18dd6e2d2370c40a",
+        "token": "yang",
+        "prefix": "https://api.weixin.qq.com/",
+        "diyApi": {
+            "getAccessToken": "%scgi-bin/token?grant_type=client_credential&appid=%s&secret=%s",
+            "createMenu": "%scgi-bin/menu/create?access_token=%s"
+        }
+    }
+}

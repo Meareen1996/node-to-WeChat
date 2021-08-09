@@ -1,0 +1,59 @@
+{
+    "button": [
+        {
+            "name": "菜单",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "梦商城",
+                    "url": "https://131c7226bb8d.ngrok.io/dream"
+                },
+                {
+                    "type": "view",
+                    "name": "龙之梦大酒店",
+                    "url": "https://www.soso.com/dragon"
+                },
+                {
+                    "type": "view",
+                    "name": "瑞峰国际酒店",
+                    "url": "https://www.soso.com/moutain"
+                },
+                {
+                    "type": "view",
+                    "name": "雅仕商务酒店",
+                    "url": "https://www.soso.com/elegant"
+                },
+                {
+                    "type": "view",
+                    "name": "瑞峰公寓酒店",
+                    "url": "https://www.soso.com/partment"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "name": "今日推荐",
+            "key": "today_recommend"
+        },
+        {
+            "name": "小工具",
+            "sub_button": [
+                {
+                    "type": "scancode_waitmsg",
+                    "name": "扫一扫",
+                    "key": "scancode"
+                },
+                {
+                    "type": "pic_sysphoto",
+                    "name": "系统拍照发图",
+                    "key": "take_photo"
+                },
+                {
+                    "type": "location_select",
+                    "name": "发送位置",
+                    "key": "send_location"
+                }
+            ]
+        }
+    ]
+}
