@@ -5,7 +5,7 @@ const Wechat = require("./wechat/wechat");
 let wechat = new Wechat(config); //实例化一个Wechat对象
 
 app.get("/", (req, res, next) => {
-  res.send('hello,欢迎来到我的node测试项目')
+  res.send('hello,这是我用node开发微信公众号的尝试')
   wechat.auth(req, res, next);
   wechat.setMenu();
 });
